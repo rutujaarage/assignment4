@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    /* padding: 0;  */
+
+}
+
+.head{
+    background-image: linear-gradient( to right, red, green 25%, yellow );
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    height: 50px;
+    width: 100%;
+}
+.unordered{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+    margin-left: 25%;
+    background-color: rgb(115, 187, 216);
+}
+.card{
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    justify-content: center;
+}
+p{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 30%;
+    margin:0px 10px;
+    padding:10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
+.jee{
+    background-image:linear-gradient( to right, red,yellow,red);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.student{
+    border: 2px solid green;
+    background-image: radial-gradient(blue , rgb(78, 206, 78));
+    height: 300px;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    position: relative;
+    margin: 70px;
+}
+.box{
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: auto;
+    width: 15%;
+    height: 150px;
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    line-height: 40px;
+}
+
+.career{
+    text-align: center;
+    background-color: rgb(230, 46, 46);
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 150px;
+}
+.grid1{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px 20px;
+    background-color: rgb(9, 238, 9);
+}
+.grid2{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 20px;
+    background-color: blue;
+}
+.grid3{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: navy;
+}
+.side{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: black;
+    grid-row: span 2;
+}
+.below{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 20px;
+    background-color: orange;
+    grid-column: 1 / span 3;
+}
+
+.foot{
+    margin: 10px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 15px;
+}
